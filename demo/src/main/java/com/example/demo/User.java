@@ -27,4 +27,12 @@ public class User {
     @Column(name = "created_at")
     private String createdAt;
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
 }
